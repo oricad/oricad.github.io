@@ -3,8 +3,8 @@ email: marynissen.simon@gmail.com
 description: |- # this means to ignore newlines until "baseurl:"
   Oricad is a CAD (computer-assisted design) program for origami.
   Design, diagram and fold origami models.
-baseurl: ""
-url: ""
+baseurl: 'https://oricad.org'
+url: 'https://oricad.org'
 github_username:  oricad
 
 # Build settings
