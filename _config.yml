@@ -1,16 +1,20 @@
 title: Oricad
-email: marynissen.simon@gmail.com
-description: |- # this means to ignore newlines until "baseurl:"
-  Oricad is a CAD (computer-assisted design) program for origami.
-  Design, diagram and fold origami models.
-baseurl: 'https://oricad.org'
-url: 'https://oricad.org'
-github_username:  oricad
+email: dev@oricad.com
+description: >-
+  Oricad is an open-source origami designer made to bring computer-assisted modeling to origami.
+baseurl: ""
+url: "https://oricad.org"
+github_username: oricad
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# https://github.com/pmarsceill/just-the-docs
-# https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html
+header_pages:
+  - downloads.md
+  - about.md
